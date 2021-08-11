@@ -13,4 +13,6 @@ Second, you will also need the RadioLib library from jgromes, found here: https:
 
 located in the "./arduino" folder are the sample sketched I used to get some receive and transmit LoRa packets. Two CatSniffers were used to prove out, one sending and one receiving the LoRa packets.  an SDR can also be used to verify/view the transmitted packets in the respective frequency/channel specified in radio.begin(). 
 
+The bootloader is a variant of Uf2 which is compatible with SAMD21E17A and can be found here: https://github.com/ElectronicCats/uf2-samd21
+
 More to come in the near future!
